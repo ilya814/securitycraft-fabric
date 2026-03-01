@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "NDN",
+    "DUD",
+    "NDN"
+  ],
+  "key": {
+    "N": {
+      "item": "minecraft:netherite_ingot"
+    },
+    "D": {
+      "item": "minecraft:diamond"
+    },
+    "U": {
+      "item": "securitycraft:universal_block_reinforcer_1"
+    }
+  },
+  "result": {
+    "id": "securitycraft:universal_block_reinforcer_2",
+    "count": 1
+  }
+}
