@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "securitycraft",
+  "version": "${version}",
+  "name": "SecurityCraft",
+  "description": "Adds plenty of blocks and items to defend and secure your base with.",
+  "authors": ["Geforce132", "Fabric Port"],
+  "contact": {
+    "sources": "https://github.com/Geforce132/SecurityCraft"
+  },
+  "license": "MIT",
+  "icon": "assets/securitycraft/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["net.geforcemods.securitycraft.SecurityCraft"],
+    "client": ["net.geforcemods.securitycraft.SecurityCraftClient"]
+  },
+  "mixins": ["securitycraft.mixins.json", "securitycraft.client.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "fabric-api": "*",
+    "minecraft": "~1.21.1",
+    "java": ">=21"
+  }
+}
