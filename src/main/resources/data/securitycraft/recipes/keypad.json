@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SIS",
+    "IKI",
+    "SIS"
+  ],
+  "key": {
+    "S": { "item": "minecraft:stone" },
+    "I": { "item": "minecraft:iron_ingot" },
+    "K": { "item": "securitycraft:key" }
+  },
+  "result": {
+    "id": "securitycraft:keypad",
+    "count": 1
+  }
+}
