@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "EGE",
+    "IKI",
+    "EIE"
+  ],
+  "key": {
+    "E": {
+      "item": "minecraft:emerald"
+    },
+    "G": {
+      "item": "minecraft:gold_ingot"
+    },
+    "I": {
+      "item": "minecraft:iron_ingot"
+    },
+    "K": {
+      "item": "securitycraft:keycard_3"
+    }
+  },
+  "result": {
+    "id": "securitycraft:keycard_4",
+    "count": 1
+  }
+}
