@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "IQI",
+    "IRI",
+    " I "
+  ],
+  "key": {
+    "I": { "item": "minecraft:iron_ingot" },
+    "Q": { "item": "minecraft:quartz" },
+    "R": { "item": "minecraft:redstone" }
+  },
+  "result": {
+    "id": "securitycraft:security_camera",
+    "count": 1
+  }
+}
