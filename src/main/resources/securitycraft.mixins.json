@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "package": "net.geforcemods.securitycraft.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "ExplosionMixin",
+    "PlayerEntityMixin",
+    "ServerPlayerEntityMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
